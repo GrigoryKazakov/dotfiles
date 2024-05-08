@@ -1,0 +1,27 @@
+{
+  "Debugger": {
+    "scope": "javascript,typescript,typescriptreact",
+    "prefix": "d",
+    "body": ["debugger;"]
+  },
+  "Console log": {
+    "scope": "javascript,typescript,typescriptreact",
+    "prefix": "cls",
+    "body": ["console.log('>>> $2', $1);"]
+  },
+  "Import": {
+    "scope": "javascript,typescript,typescriptreact",
+    "prefix": "imp",
+    "body": ["import { $2 } from '$1';"]
+  },
+  "Export": {
+    "scope": "javascript,typescript,typescriptreact",
+    "prefix": "exp",
+    "body": ["export { $2 } from '$1';"]
+  },
+  "Todo": {
+    "scope": "javascript,typescript,typescriptreact",
+    "prefix": "td",
+    "body": ["// TODO Grigory: "]
+  }
+}
